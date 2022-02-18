@@ -2,9 +2,7 @@ name: Build, code quality, tests
 on: [push]
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: set up JDK 1.8
