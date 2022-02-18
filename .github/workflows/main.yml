@@ -9,8 +9,6 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: build release
-      run: ./gradlew app:assembleRelease
     - name: upload artefact to App Center
       uses: charlesratchagaraj/AppCenter-Github-Action@v1
       with:
